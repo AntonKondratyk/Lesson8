@@ -26,7 +26,7 @@ namespace Task2
             {
                 for (int i = 0; i < 10; i++)
                 {
-                    sum += i;
+                    sum = sum + Convert.ToInt32(sr.ReadLine());
                 }
             }
             Console.WriteLine(sum);
